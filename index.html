@@ -26,12 +26,32 @@
         <li>Any amount of players can play,the program will detect the name of the winner.</li>
         <li>Visualization of the board, showing the winning game in green.</li>
       </ul>
+      <h4>Restrains:</h4>
+      <ul>
+        <li>Game array have to be in JSON format ex: '["A","B","D",1,2,3,"Z","S","F"]'</li>
+        <li>Use "" instead of '' *JSON parser limitation</li>
+        <li>There is only one reserved charictar you can not use for player which is "-" which is used by default to represent no move in the cell.</li>
+      </ul>
     </div>
-    <div>
+    <div id="getarrayform">
       <input type="text" name="gamearray" ID="inputArray"></input>
       <input type="button" name="Submit" value="Who won?" onclick="parseTextInside('inputArray')"></input>
     </div>
     <div id='canvas' class="board"></div>
+    <div id="result"></div>
+    <div class="cover">
+      <h4>Hire me!</h4>
+      <p>
+        The code for this project can be found using your browser "developer view" or using the github repository (github.com/muhis/tikTakToe). </br>I am Mohammed Salman. An active person who is the best person you can hire for your company. I am a multi-talent student. Running successfully my own business.
+        </br>I am working at the moment with the biggest newspaper in nordic countries HelsinkiSanomat as an interpreter and a reporter, I have two published articles which were hits and assisted in many other articles. Further, I am an interpreter and translator for Crisis management initiative (Founded by Martti Ahtisaari). I am as well a web developer with many small Finnish companies clients.
+        </br>I am looking for a place where  I can grow while adding value. I am studying in evening studies, that means I am ready to work at day time. If you are interested, please contact me on:
+        </br> m.salman@zinkki.com
+        </br> 0409695363
+      </br><a href="http://fi.linkedin.com/in/m-salman">fi.linkedin.com/in/m-salman</a>
+
+
+    </p>
+    </div>
     <script src="Scripts/scripts.js"></script>
   </div>
 </body>
